@@ -1,6 +1,5 @@
 <div class="card">
   <div class="card-body">
-    <!-- <h5 class="card-title">Card title</h5> -->
     <select class="selectpicker" (change)="changeRole(($event))">
       <option>Select Role</option>
       <option *ngFor="let role of selectRole" [ngValue]="role">{{role}}</option>
